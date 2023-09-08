@@ -1,6 +1,7 @@
 # PrimaDentalClinic |  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![version](https://img.shields.io/badge/React.Js-v16.14.0-red)
 
-![Github Screenshot](https://github.com/Kristi200/PrimaDentalClinic/assets/80427725/aee4ca45-ec61-4900-a2a1-adc2b1a6073f)
+![image](https://github.com/Kristi200/Dental-Clinic-Website/assets/80427725/95833512-0dda-42dd-8e9c-e7f9a0b5e5fd)
+
 
 A user-friendly, modern, and fully responsive online platform for a dental clinic. The website will serve as an all-in-one solution, providing patients with the ability to schedule appointments, and easily contact clinic staff.
 
