@@ -11,3 +11,7 @@ node_modules/
 # Ignore sensitive configuration files
 config.ini
 secrets.json
+
+# Ignore .env files
+.env
+.env.local
