@@ -5,7 +5,7 @@ import './index.css';
 import ScrollToTop from './Components/ScrollToTop.js';
 import { BrowserRouter } from 'react-router-dom';
 import './Components/i18n.js';
-require('dotenv').config();
+// require('dotenv').config();
 
 ReactDOM.render(
   <React.StrictMode>

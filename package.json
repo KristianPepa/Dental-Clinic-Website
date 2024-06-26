@@ -13,6 +13,7 @@
     "@formspree/react": "^2.4.2",
     "@googlemaps/js-api-loader": "^1.15.2",
     "@react-google-maps/api": "^2.18.1",
+    "@tomtom-international/web-sdk-maps": "^6.25.0",
     "animate.css": "^4.1.1",
     "axios": "^1.4.0",
     "i18next": "^22.5.1",

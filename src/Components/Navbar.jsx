@@ -23,13 +23,13 @@ const Navbar = (props) => {
             {/* First Navbar */}
             <div className="flex sm:flex-col lg:flex-row lg:justify-around sm:py-3 md:py-5 sm:justify-center md:justify-around  items-center lg:h-[3.5rem] bg-[#002856] w-full text-neutral-300 text-xs">
                 <div className="lg:flex lg:flex-row md:grid md:grid-cols-2 child:items-center  lg:divide-x lg:divide-slate-400 child:tracking-widest">
-                    <a href="https://wa.me/355699724951" target='_blank'><p className="flex flex-row justify-center gap-2 md:pr-3 lg:pr-7 md:border-r ">
+                    <a href="#" onClick={(e) => e.preventDefault()} target='_blank'><p className="flex flex-row justify-center gap-2 md:pr-3 lg:pr-7 md:border-r ">
                         <img src={PhoneCallIcon} alt="Phone Icon" />
-                        +355 69 972 4951
+                        +###########
                     </p></a>
-                    <a href="mailto:primadentalclinic2023@gmail.com" onClick={() => window.location.href}><p className="flex flex-row justify-center gap-2 sm:py-1 md:pl-3 lg:px-7">
+                    <a href="#" onClick={(e) => {window.location.href, e.preventDefault()}}><p className="flex flex-row justify-center gap-2 sm:py-1 md:pl-3 lg:px-7">
                         <img src={EmailIcon} alt="Email Icon" />
-                        primadentalclinic2023@gmail.com
+                        email@gmail.com
                     </p></a>
                     <p className="flex flex-row justify-center md:justify-start gap-2 lg:pl-7 md:pt-2 md:col-span-2 ">
                         <img src={Clock} alt="Clock Icon" />
@@ -37,8 +37,8 @@ const Navbar = (props) => {
                     </p>
                 </div>
                 <div className="flex flex-row divide-x sm:justify-center sm:pt-3">
-                    <p className="flex flex-row gap-2 lg:pl-10 lg:pr-8 sm:pr-2 md:pr-3">
-                        <img src={Language} alt="Language Icon" />
+                    <p className="flex flex-row items-center gap-2 lg:pl-10 lg:pr-8 sm:pr-2 md:pr-3">
+                        <img src={Language} alt="Language Icon" style={{ height: "20px"}}/>
                         <select id="language" className="text-neutral-300 border-none bg-transparent child:text-black" onChange={(e) => languageChange(e)}>
                             <option value="it">{t("italian")}</option>
                             <option value="en">{t("english")}</option>
@@ -46,9 +46,9 @@ const Navbar = (props) => {
                         </select>
                     </p>
                     <div className="flex flex-row lg:pl-10 sm:pl-2 md:pl-3 lg:gap-7 sm:gap-3 md:gap-3 child-hover:bg-white child:p-2 child:rounded-full child:duration-300 child-hover:-translate-y-1">
-                        <a href="https://www.facebook.com/profile.php?id=100093140397769&mibextid=ZbWKwL" target="_blank" onMouseEnter={() => setFacebook(true)} onMouseLeave={() => setFacebook(false)}><img src={(!facebook) ? Facebook : FacebookHover} alt="Facebook"/></a>
-                        <a href="https://instagram.com/prima_dental_clinic?igshid=NTc4MTIwNjQ2YQ==" target="_blank" onMouseEnter={() => setInstagram(true)} onMouseLeave={() => setInstagram(false)}><img src={(!instagram) ? Instagram : InstagramHover} alt="Instagram" /></a>
-                        <a href="https://wa.me/355699724951" target='_blank' onMouseEnter={() => setWhatsapp(true)} onMouseLeave={() => setWhatsapp(false)}><img src={(!whatsapp) ? Whatsapp : WhatsappHover} alt="Whatsapp" /></a>
+                        <a href="#" onClick={(e) => e.preventDefault()} target="_blank" onMouseEnter={() => setFacebook(true)} onMouseLeave={() => setFacebook(false)}><img src={(!facebook) ? Facebook : FacebookHover} alt="Facebook"/></a>
+                        <a href="#" onClick={(e) => e.preventDefault()} target="_blank" onMouseEnter={() => setInstagram(true)} onMouseLeave={() => setInstagram(false)}><img src={(!instagram) ? Instagram : InstagramHover} alt="Instagram" /></a>
+                        <a href="#" onClick={(e) => e.preventDefault()} target='_blank' onMouseEnter={() => setWhatsapp(true)} onMouseLeave={() => setWhatsapp(false)}><img src={(!whatsapp) ? Whatsapp : WhatsappHover} alt="Whatsapp" /></a>
                     </div>
                 </div>
             </div>
