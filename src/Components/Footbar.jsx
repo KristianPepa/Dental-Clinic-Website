@@ -18,15 +18,15 @@ const Footbar = () => {
                 <div className='border-b w-16 border-[#00ACB1] border-[1px] mt-6'></div>
                 <p className='flex flex-row gap-2 mt-8'>
                     <img src={Location} alt="Location Icon"/>
-                    "Lushnjë"
+                    Location
                 </p>
-                <a href="tel:+355699724951"><p className='flex flex-row gap-2 my-4'>
+                <a href="#" onClick={(e) => e.preventDefault()}><p className='flex flex-row gap-2 my-4'>
                     <img src={Contact} alt='Contact Support'/>
-                    +355 69 972 4951
+                    +##########
                 </p></a>
-                <a href="mailto:primadentalclinic2023@gmail.com" onClick={() => window.location.href}><p className='flex flex-row gap-2'>
+                <a href="#" onClick={(e) => {window.location.href, e.preventDefault()}}><p className='flex flex-row gap-2'>
                     <img src={EmailIcon} alt='Email Icon'/>
-                    primadentalclinic2023@gmail.com
+                    email@gmail.com
                 </p></a>
             </div>
             <div className='child:text-white sm:mt-5 '>
