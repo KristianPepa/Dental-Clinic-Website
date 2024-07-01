@@ -1,4 +1,4 @@
-# PrimaDentalClinic |  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![version](https://img.shields.io/badge/React.Js-v16.14.0-red) [![Hostinger](https://img.shields.io/badge/Hostinger-Success-green)](https://www.hostinger.com)
+# Dental Clinic Website |  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![version](https://img.shields.io/badge/React.Js-v16.14.0-red) [![Hostinger](https://img.shields.io/badge/Hostinger-Success-green)](https://www.hostinger.com)
 
 
 ![image](https://github.com/Kristi200/Dental-Clinic-Website/assets/80427725/95833512-0dda-42dd-8e9c-e7f9a0b5e5fd)
@@ -28,4 +28,4 @@ The website will be built using modern web development technologies, including H
 - Download source code
 - npm install
 - npm start
-- open localhost:3000
+- open localhost:5173

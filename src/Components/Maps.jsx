@@ -28,10 +28,10 @@ const Maps = () => {
         map.current = tt.map({
             key: "Px0ohDmL5Z5NDboiv1hOgXy9kliWZR56",
             container: mapElement.current,
-            center: [19.6996, 40.9420],
-            zoom: 13,
+            center: [20.1683, 41.1533],
+            zoom: 5,
         })
-        const marker = new tt.Marker().setLngLat([19.6996, 40.9420]).addTo(map.current)
+        const marker = new tt.Marker().setLngLat([20.1683, 41.1533]).addTo(map.current)
         
         return () => map.current.remove();
 
