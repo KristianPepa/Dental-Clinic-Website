@@ -1,6 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react'
 // import { GoogleMap,useLoadScript,Marker } from '@react-google-maps/api'
-// import process
 
 import tt from '@tomtom-international/web-sdk-maps';
 import '@tomtom-international/web-sdk-maps/dist/maps.css';
@@ -25,8 +24,9 @@ const Maps = () => {
 
         if (map.current) return;
 
+
         map.current = tt.map({
-            key: "Px0ohDmL5Z5NDboiv1hOgXy9kliWZR56",
+            key: import.meta.env.VITE_TOMTOM_API_KEY,
             container: mapElement.current,
             center: [20.1683, 41.1533],
             zoom: 5,

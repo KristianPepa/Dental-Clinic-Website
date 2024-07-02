@@ -16,6 +16,7 @@
     "@tomtom-international/web-sdk-maps": "^6.25.0",
     "animate.css": "^4.1.1",
     "axios": "^1.4.0",
+    "dotenv": "^16.4.5",
     "i18next": "^22.5.1",
     "react": "^16.14.0",
     "react-alice-carousel": "^2.7.1",
