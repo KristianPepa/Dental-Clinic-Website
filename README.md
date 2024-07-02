@@ -1,4 +1,4 @@
-# Dental Clinic Website |  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![version](https://img.shields.io/badge/React.Js-v16.14.0-red) [![Hostinger](https://img.shields.io/badge/Hostinger-Success-green)](https://www.hostinger.com)
+# Dental Clinic Website |  [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![version](https://img.shields.io/badge/React.Js-v16.14.0-red) [![Netlify Status](https://api.netlify.com/api/v1/badges/0fbe5a3b-3f70-4c3f-a805-03c16c3e38cf/deploy-status)]
 
 
 ![image](https://github.com/Kristi200/Dental-Clinic-Website/assets/80427725/95833512-0dda-42dd-8e9c-e7f9a0b5e5fd)
