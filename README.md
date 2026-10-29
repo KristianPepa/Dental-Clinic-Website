@@ -28,3 +28,27 @@ The website will be built using modern web development technologies, including H
 - npm install
 - npm start
 - open localhost:5173
+
+
+## License & Copyright
+
+**Copyright © 2024 Kristian Pepa**
+
+This project, **Dental Clinic Website**, was originally developed by **Kristian Pepa** and is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+
+You are permitted to use, copy, modify, and redistribute this software, including for commercial purposes, provided that you comply with the GPLv3 license terms.
+
+### License Requirements
+
+When redistributing this project or modified versions of it, you must:
+
+- **Preserve** applicable copyright and license notices.
+- **License** the GPLv3-covered derivative work under GPLv3.
+- **Clearly indicate** modifications and their relevant dates.
+- **Provide** the corresponding source code as required by GPLv3.
+
+The GPLv3-covered code may not be relicensed under an incompatible license, such as MIT, without separate authorization from the relevant copyright holders.
+
+For the complete licensing terms, see the [LICENSE](LICENSE) file.
+
+**Original project:** [KristianPepa/Dental-Clinic-Website](https://github.com/KristianPepa/Dental-Clinic-Website)
